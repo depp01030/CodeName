@@ -1,0 +1,17 @@
+# IDE settings
+.idea/
+*.swp
+
+# CMake build directories
+cmake-build-*/
+build/
+
+# Compiled files
+*.o
+*.a
+*.so
+*.exe
+
+# OS generated files
+.DS_Store
+Thumbs.db
