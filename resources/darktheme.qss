@@ -1,0 +1,122 @@
+/* General Background and Text */
+QWidget {
+    background-color: #121212; /* Very dark background */
+    color: #E0E0E0; /* Light gray text for readability */
+}
+
+/* Button Styles */
+QPushButton {
+    background-color: #1A1A1A; /* Dark button background */
+    color: #00FFFF; /* Neon cyan text */
+    border: 2px solid #00FFFF; /* Neon cyan border */
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+QPushButton:hover {
+    background-color: #007ACC; /* Electric blue hover */
+    border: 2px solid #FF007F; /* Neon pink border on hover */
+    color: #FFFFFF; /* White text on hover */
+}
+
+QPushButton:pressed {
+    background-color: #005F99; /* Darker blue on press */
+    border: 2px solid #00FF00; /* Neon green border on press */
+    color: #00FF00; /* Neon green text on press */
+}
+
+/* Input Field Styles */
+QLineEdit {
+    background-color: #1C1C1C; /* Dark background for input fields */
+    color: #00FFFF; /* Neon cyan text */
+    border: 2px solid #39FF14; /* Neon green border */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Label Styles */
+QLabel {
+    color: #FF00FF; /* Neon pink text for labels */
+    font-weight: bold;
+}
+
+/* Global Font */
+* {
+    font-family: "Roboto Mono", "Courier New", monospace;
+    font-size: 14px;
+}
+
+/* CodeCard Styling */
+CodeCard {
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #444;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #1F1F1F; /* Darker card background */
+    color: #FFD700; /* Golden yellow text */
+}
+
+CodeCard:hover {
+    background-color: #333333;
+    border: 2px solid #FF007F; /* Neon pink hover effect */
+    color: #FF007F; /* Neon pink text on hover */
+}
+
+/* Chat Room and Sidebar Styling */
+QTextEdit, QListWidget {
+    background-color: #1A1A1A; /* Dark background */
+    color: #39FF14; /* Neon green text */
+    border: 2px solid #333; /* Subtle border */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Sidebar Panels */
+QWidget#sidebar {
+    background-color: #1C1C24; /* Dark, cyberpunk tone for sidebar */
+    color: #00E0FF; /* Neon cyan text */
+    padding: 12px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+/* Score Labels */
+QLabel#scoreLabel {
+    color: #FF00FF; /* Neon pink for scores */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* User Information Panel */
+QLabel#userInfo {
+    color: #39FF14; /* Neon green for user info */
+    font-size: 12px;
+    border: 1px solid #6A6A6A;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+/* Scrollbar Styling */
+QScrollBar:vertical {
+    background-color: #121212; /* Dark background for scrollbar */
+    width: 10px;
+    margin: 15px 3px 15px 3px;
+    border: 1px solid #333;
+}
+
+QScrollBar::handle:vertical {
+    background: #FF007F; /* Neon pink handle */
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}

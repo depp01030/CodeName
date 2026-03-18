@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="QtSettings">
+    <option name="myCurrentProfile" value="Client" />
+    <option name="mySettingsPerProfile">
+      <map>
+        <entry key="Client">
+          <value>
+            <PerProfileState>
+              <option name="myQmlPath" value="$USER_HOME$/Qt/6.10.2/macos/qml" />
+              <option name="myQtBinPath" value="$USER_HOME$/Qt/6.10.2/macos/bin" />
+            </PerProfileState>
+          </value>
+        </entry>
+        <entry key="Client-debug">
+          <value>
+            <PerProfileState>
+              <option name="myQmlPath" value="$USER_HOME$/Qt/6.10.2/macos/qml" />
+              <option name="myQtBinPath" value="$USER_HOME$/Qt/6.10.2/macos/bin" />
+            </PerProfileState>
+          </value>
+        </entry>
+        <entry key="Server">
+          <value>
+            <PerProfileState>
+              <option name="myQmlPath" value="$USER_HOME$/Qt/6.10.2/macos/qml" />
+              <option name="myQtBinPath" value="$USER_HOME$/Qt/6.10.2/macos/bin" />
+            </PerProfileState>
+          </value>
+        </entry>
+        <entry key="Server-debug">
+          <value>
+            <PerProfileState>
+              <option name="myQmlPath" value="$USER_HOME$/Qt/6.10.2/macos/qml" />
+              <option name="myQtBinPath" value="$USER_HOME$/Qt/6.10.2/macos/bin" />
+            </PerProfileState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

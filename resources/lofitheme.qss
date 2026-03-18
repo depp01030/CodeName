@@ -1,0 +1,122 @@
+/* General Background and Text */
+QWidget {
+    background-color: #FAF3E0; /* 柔和奶白色背景，增添溫暖感 */
+    color: #5A3D31; /* 溫暖的深褐色文字，適合鄉村氛圍 */
+}
+
+/* Button Styles */
+QPushButton {
+    background-color: #DEC6A1; /* 柔和沙色按鈕背景 */
+    color: #5A3D31; /* 深褐色文字 */
+    border: 2px solid #A68064; /* 溫暖的棕灰色邊框 */
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+    font-family: "Georgia", serif; /* 鄉村風格的經典字體 */
+}
+
+QPushButton:hover {
+    background-color: #C4A484; /* 偏深的沙棕色背景 */
+    border: 2px solid #7F5F44; /* 深咖啡色邊框 */
+    color: #FFFFFF; /* 白色文字提升對比 */
+}
+
+QPushButton:pressed {
+    background-color: #B29374; /* 溫暖橘棕色背景 */
+    border: 2px solid #5A3D31; /* 深褐色邊框 */
+    color: #FAF3E0; /* 奶白色文字 */
+}
+
+/* Input Field Styles */
+QLineEdit {
+    background-color: #F7EAD9; /* 柔和奶茶色背景 */
+    color: #5A3D31; /* 深褐色文字 */
+    border: 2px solid #A68064; /* 棕灰色邊框 */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Label Styles */
+QLabel {
+    color: #A68064; /* 棕灰色文字，增強柔和感 */
+    font-weight: bold;
+}
+
+/* Global Font */
+* {
+    font-family: "Georgia", serif;
+    font-size: 14px;
+}
+
+/* CodeCard Styling */
+CodeCard {
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #A68064;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #F7EAD9; /* 奶茶色背景 */
+    color: #5A3D31; /* 深褐色文字 */
+}
+
+CodeCard:hover {
+    background-color: #DEC6A1; /* 沙色背景 */
+    border: 2px solid #7F5F44; /* 深咖啡色邊框 */
+    color: #7F5F44; /* 深咖啡色文字 */
+}
+
+/* Chat Room and Sidebar Styling */
+QTextEdit, QListWidget {
+    background-color: #F7EAD9; /* 奶茶色背景 */
+    color: #5A3D31; /* 深褐色文字 */
+    border: 2px solid #A68064; /* 棕灰色邊框 */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Sidebar Panels */
+QWidget#sidebar {
+    background-color: #FAF3E0; /* 奶白色背景 */
+    color: #5A3D31; /* 深褐色文字 */
+    padding: 12px;
+    border: 2px solid #A68064;
+    border-radius: 10px;
+}
+
+/* Score Labels */
+QLabel#scoreLabel {
+    color: #7F5F44; /* 深咖啡色文字 */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* User Information Panel */
+QLabel#userInfo {
+    color: #5A3D31; /* 深褐色文字 */
+    font-size: 12px;
+    border: 1px solid #A68064;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+/* Scrollbar Styling */
+QScrollBar:vertical {
+    background-color: #F7EAD9; /* 奶茶色背景 */
+    width: 10px;
+    margin: 15px 3px 15px 3px;
+    border: 1px solid #A68064;
+}
+
+QScrollBar::handle:vertical {
+    background: #DEC6A1; /* 沙色滑塊 */
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}

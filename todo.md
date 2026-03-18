@@ -1,0 +1,27 @@
+#Todo list
+
+- [x] User 資訊改成Singleton
+    - 包含 User ID
+    - User IP
+    - Team
+    - Role? #todo
+- [x] Small window on the top right
+    - 顯示 User ID
+    - 顯示 User IP
+    - 顯示 User UUID
+- [x] server端 的使用者登入登出事件
+- [x] 重構 chat command factory
+- [x] command to setting user info
+- [x] 遊戲流程:
+    - 建立gameState(初始化)
+    - addPlayer
+    - setPlayerToTeam
+    - 開始遊戲
+    - 發牌
+    - 更新gameScreen
+- [x] 系統User, 遊戲Player 資訊綁定 <- not yet
+- [x] 回合機制
+    - 非自己隊的時候不能動
+- [ ] 不同角色，顯示的畫面要不同
+    - 指揮官：可以看到所有卡片
+    - 臥底 : 只能看到自己翻開的卡片
